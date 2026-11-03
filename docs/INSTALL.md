@@ -87,3 +87,26 @@ npx skills update chinese-writing paper-reading -g
 ```
 
 This route uses a third-party installer. If your agent supports `SKILL.md` directly, you can instead copy the complete selected folder (including references and screenshots) from `plugins/<plugin>/skills/<skill>/` into its documented skill location. Never copy only `SKILL.md` when supporting resources are needed. Agent support varies; packaging compatibility does not supply missing browser, file, or visualization tools.
+
+## Install from a shared ZIP
+
+Each versioned ZIP contains one plugin. Extract it into a folder with the plugin name; keep the hidden `.codex-plugin/` and `.claude-plugin/` folders. A typical extracted directory contains `plugin.json`, both compatibility folders, and `skills/`.
+
+For an agent supported by the Skills CLI, install from the extracted folder. This installs the portable skill content and references:
+
+```sh
+unzip chinese-writing-0.1.2.zip -d chinese-writing
+npx skills add ./chinese-writing -g -a codex
+```
+
+For Claude Code, substitute `-a claude-code`; for Cursor, use `-a cursor`. For Paper Reading, extract `paper-reading-0.1.0.zip` into `paper-reading` and use that path. Choose one installation route per skill per agent to avoid duplicate discovery. This local ZIP route does not need access to the private GitHub repository.
+
+To try the extracted package directly as a Claude Code plugin:
+
+```sh
+claude --plugin-dir ./chinese-writing
+```
+
+Desktop plugin-upload flows vary by app and workspace permissions. Upload to the app's actual plugin installation interface when it supports the package; attaching a ZIP in an ordinary chat is not itself plugin installation. For the OpenAI public plugin directory, ZIP submission is a separate developer review/publishing process, described in [the submission guide](https://developers.openai.com/plugins/deploy/submission).
+
+To rebuild after an edit, update the changed plugin's version consistently across its manifests and the Claude marketplace entry, add new reference files to Git, validate, and run `python3 scripts/package.py` from the repository root.

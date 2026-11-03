@@ -62,3 +62,14 @@ claude plugin validate plugins/paper-reading
 The validation checks packaging and references, not prose quality. Chinese Writing has [behavioral review cases](evals/README.md). An installed agent's abilities still determine which tools it can use.
 
 Packaging references: [OpenAI plugins](https://developers.openai.com/plugins/build/plugins), [Claude marketplaces](https://code.claude.com/docs/en/plugin-marketplaces), and [Skills CLI](https://github.com/vercel-labs/skills).
+
+## Package ZIPs for sharing
+
+```sh
+python3 scripts/validate.py
+python3 scripts/package.py
+```
+
+Versioned ZIPs and SHA-256 checksums are generated in the ignored `dist/` folder. Each ZIP contains one complete plugin with `plugin.json` at the archive root. Only Git-tracked files within that plugin are included; add new reference files to Git before packaging. The archive includes skill references and screenshot assets, without repository history or client task files.
+
+See [ZIP installation](docs/INSTALL.md#install-from-a-shared-zip) for recipient instructions. ZIP distribution is a snapshot; build and share a new version after updates.
