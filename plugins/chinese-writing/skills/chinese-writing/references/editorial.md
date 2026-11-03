@@ -30,3 +30,7 @@ Long-form technical articles: connect paragraphs through reasoning; use examples
 ## Final meaning review
 
 Check that the reader can still identify what happened, under what conditions, compared with what, and how strongly the evidence supports the claim. Reordering and omission must preserve recoverable meaning. Retain caveats and details that change a decision. If a source claims an exact doubling from 3.0% to 7.6%, flag the mismatch; an accurate description would be 超过原来的两倍, subject to the editing scope.
+
+## Register examples from supplied screenshots
+
+For mechanisms and technical explanations, consult [QwenGyre](corpus/qwengyre-technical-explainer.md). For evaluation-result structure, consult [Qwen-MT](corpus/qwen-mt-results-explainer.md). For announcements or onboarding, use the corresponding WorkBuddy notes in [the index](corpus/index.md). These illustrate different registers. Favor the relevant explanatory structure; treat slogans, metaphors, and promotional intensity as tentative choices until the user confirms them. Do not import source product or benchmark claims into new work.

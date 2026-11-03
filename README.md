@@ -2,7 +2,7 @@
 
 A personal Codex plugin for natural Chinese technical and business writing: translation, adaptation, editing, and drafting from notes. Covers research explanations, sales decks, reports, pricing, and UI copy.
 
-Version 0.1.0 includes six user-approved calibration choices, contextual terminology, format-aware editorial guidance, and an expandable Chinese reference library. Broader style interpretations and glossary defaults remain provisional.
+Version 0.1.1 includes six user-approved calibration choices, contextual terminology, format-aware editorial guidance, and six supplied screenshots organized into four annotated Chinese writing references. Broader style interpretations and glossary defaults remain provisional.
 
 ## Use it
 
@@ -52,7 +52,7 @@ Record those preferences; treat other style observations as tentative.
 
 You can also drop in a file without annotating it and ask Codex to help. The skill can discover unindexed files; annotations make your preferences clearer. Update this source repository rather than an installed cache. Refresh/reinstall the plugin as needed so later chats receive updated references.
 
-Use Chinese articles for native composition, bilingual edits for adaptation decisions, and terminology sources for contextual usage. A post's inclusion does not approve every expression in it. Keep original attribution; reference notes can use links and short excerpts. Private source decks and HTML files are not bundled. An ignored `private/` folder is available for local originals if needed.
+Use Chinese articles for native composition, bilingual edits for adaptation decisions, and terminology sources for contextual usage. A post's inclusion does not approve every expression in it. Keep original attribution; reference notes can use links and short excerpts. The six supplied writing-reference screenshots are bundled with attribution notes; private source decks and HTML files are not bundled. An ignored `private/` folder is available for local originals if needed.
 
 ## Files to refine
 
