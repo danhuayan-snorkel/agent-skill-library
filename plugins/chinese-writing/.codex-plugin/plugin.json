@@ -1,0 +1,12 @@
+{
+  "name": "chinese-writing",
+  "version": "0.1.0",
+  "description": "Natural Chinese writing and adaptation for technical and business audiences.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Chinese Writing",
+    "shortDescription": "Natural Chinese for technical and business audiences",
+    "longDescription": "Translate, adapt, draft, and edit Chinese using contextual terminology, approved editorial examples, and an extensible reference library.",
+    "category": "Productivity"
+  }
+}
