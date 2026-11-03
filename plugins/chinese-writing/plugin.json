@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "chinese-writing",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Natural Chinese writing and adaptation for technical and business audiences.",
   "extensions": {
     "com.openai": {
@@ -12,5 +12,8 @@
         "category": "Productivity"
       }
     }
+  },
+  "author": {
+    "name": "danhuayan-snorkel"
   }
 }

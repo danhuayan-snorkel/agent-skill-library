@@ -1,0 +1,8 @@
+{
+  "name": "paper-reading",
+  "version": "0.1.0",
+  "description": "Read research papers deeply: reconstruct methods, evaluate evidence, and explain the full pipeline.",
+  "author": {
+    "name": "danhuayan-snorkel"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "paper-reading",
+  "version": "0.1.0",
+  "description": "Read research papers deeply: reconstruct methods, evaluate evidence, and explain the full pipeline.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Paper Reading",
+    "shortDescription": "Understand research papers, methods, evidence, and limits",
+    "longDescription": "Read the full paper, explain the research problem and method, examine evidence, and distinguish documented results from inference.",
+    "category": "Productivity"
+  },
+  "author": {
+    "name": "danhuayan-snorkel"
+  }
+}

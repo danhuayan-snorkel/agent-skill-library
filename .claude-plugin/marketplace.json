@@ -1,0 +1,27 @@
+{
+  "name": "danhuayan-agent-skills",
+  "owner": {
+    "name": "danhuayan-snorkel"
+  },
+  "description": "Personal technical and business skills across coding agents.",
+  "plugins": [
+    {
+      "name": "chinese-writing",
+      "source": "./plugins/chinese-writing",
+      "description": "Natural Chinese writing and adaptation for technical and business audiences.",
+      "version": "0.1.2",
+      "skills": [
+        "./skills/chinese-writing"
+      ]
+    },
+    {
+      "name": "paper-reading",
+      "source": "./plugins/paper-reading",
+      "description": "Read research papers deeply: reconstruct methods, evaluate evidence, and explain the full pipeline.",
+      "version": "0.1.0",
+      "skills": [
+        "./skills/paper-reading"
+      ]
+    }
+  ]
+}
