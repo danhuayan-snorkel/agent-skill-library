@@ -27,7 +27,7 @@
       "name": "model-capability-assessment",
       "source": "./plugins/model-capability-assessment",
       "description": "Assess a foundation model's agent capabilities from public benchmarks, Snorkel SDS results, and user feedback; produce internal and client-facing reports.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "skills": [
         "./skills/model-capability-assessment"
       ]

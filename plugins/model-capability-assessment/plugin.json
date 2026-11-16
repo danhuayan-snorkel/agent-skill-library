@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "model-capability-assessment",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Assess a foundation model's agent capabilities from public benchmarks, Snorkel SDS results, and user feedback; produce internal and client-facing reports.",
   "extensions": {
     "com.openai": {
