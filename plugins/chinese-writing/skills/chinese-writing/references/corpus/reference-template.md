@@ -1,24 +1,28 @@
-# Reference title
+# Reference title (EN ↔ ZH)
 
-- Original URL or supplied filename:
+- English URL:
+- Chinese URL:
+- Source file with aligned text (if any):
 - Author / organization:
-- Publication date (if known):
-- Type: native Chinese / bilingual edit / terminology usage
+- Translator / proofreader (if any):
+- Publication date:
+- Type: bilingual pair / native Chinese / terminology usage
+- Direction: EN → ZH, ZH → EN, or parallel official versions (original unknown)
 - Audience and format:
 - Status: pending
 - User's comments:
 
-## Selected passages
+## What works
 
-Add short passages or refer to a locally supplied article. Retain enough context to understand each choice.
+| English | Chinese | Why it works |
+|---|---|---|
+| short source phrase | short target phrase | the decision it illustrates |
 
-## What this illustrates
+Keep excerpts to short phrases. Link the article for full context instead of copying paragraphs.
 
-Describe specific decisions: introducing an English term, explaining a mechanism, connecting paragraphs, or omitting repeated context.
+## What to avoid (drift found in the pair)
 
-## Tentative observations
-
-Keep inferred patterns separate from explicit user feedback.
+List concrete cases: changed numbers or hedges, dropped quantities, wrong standard terms, invented causality, inconsistent terms, or padding.
 
 ## Scope
 

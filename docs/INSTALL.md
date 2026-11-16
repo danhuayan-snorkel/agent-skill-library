@@ -18,6 +18,7 @@ Do not place tokens in repository URLs or files. A local clone can be used when 
 ```sh
 codex plugin marketplace add danhuayan-snorkel/agent-skill-library
 codex plugin add chinese-writing@danhuayan-agent-skills
+codex plugin add model-capability-assessment@danhuayan-agent-skills
 codex plugin add paper-reading@danhuayan-agent-skills
 ```
 
@@ -50,6 +51,7 @@ Inside Claude Code:
 ```text
 /plugin marketplace add danhuayan-snorkel/agent-skill-library
 /plugin install chinese-writing@danhuayan-agent-skills
+/plugin install model-capability-assessment@danhuayan-agent-skills
 /plugin install paper-reading@danhuayan-agent-skills
 ```
 
@@ -86,7 +88,7 @@ npx skills check
 npx skills update chinese-writing paper-reading -g
 ```
 
-This route uses a third-party installer. If your agent supports `SKILL.md` directly, you can instead copy the complete selected folder (including references and screenshots) from `plugins/<plugin>/skills/<skill>/` into its documented skill location. Never copy only `SKILL.md` when supporting resources are needed. Agent support varies; packaging compatibility does not supply missing browser, file, or visualization tools.
+This route uses a third-party installer. If your agent supports `SKILL.md` directly, you can instead copy the complete selected folder (including references) from `plugins/<plugin>/skills/<skill>/` into its documented skill location. Never copy only `SKILL.md` when supporting resources are needed. Agent support varies; packaging compatibility does not supply missing browser, file, or visualization tools.
 
 ## Install from a shared ZIP
 
@@ -95,7 +97,7 @@ Each versioned ZIP contains one plugin. Extract it into a folder with the plugin
 For an agent supported by the Skills CLI, install from the extracted folder. This installs the portable skill content and references:
 
 ```sh
-unzip chinese-writing-0.1.2.zip -d chinese-writing
+unzip chinese-writing-0.2.0.zip -d chinese-writing
 npx skills add ./chinese-writing -g -a codex
 ```
 
