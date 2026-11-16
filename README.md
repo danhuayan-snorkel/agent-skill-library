@@ -5,7 +5,7 @@ Private personal skill library for `danhuayan-snorkel`, with installable plugins
 | Skill | Purpose | Version |
 |---|---|---|
 | [Chinese Writing](plugins/chinese-writing/skills/chinese-writing/SKILL.md) | Natural Chinese translation, adaptation, and original technical/business writing | 0.2.0 |
-| [Model Capability Assessment](plugins/model-capability-assessment/skills/model-capability-assessment/SKILL.md) | Agent-capability gaps for a named model from public benchmarks, Snorkel SDS results, and user feedback, as an internal artifact and a bilingual client-facing report | 0.1.0 |
+| [Model Capability Assessment](plugins/model-capability-assessment/skills/model-capability-assessment/SKILL.md) | Agent-capability gaps for a named model from public benchmarks, Snorkel SDS results, and user feedback, as an internal artifact and a bilingual client-facing report | 0.2.0 |
 | [Paper Reading](plugins/paper-reading/skills/paper-reading/SKILL.md) | Full-paper reading, method explanation, evidence review, and visual walkthroughs | 0.1.0 |
 
 ## Install
