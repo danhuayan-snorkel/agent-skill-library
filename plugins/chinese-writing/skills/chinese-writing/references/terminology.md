@@ -26,5 +26,19 @@ These are initial candidate defaults, not a fully user-approved glossary. Use so
 | acceptance: delivery terms | 验收 | Keep separate from purchase, delivery, payment, and use. |
 | spec: dataset delivery | 数据规格；交付规范 | Use the official name if defined. Code/API specs may differ. |
 | minimum commitment | 最低承诺采购额；最低采购承诺 | Preserve whether amount, quantity, or another obligation. |
+| token: LLM text unit | token；Token；词元 | Avoid 令牌 in ML contexts because it suggests an authentication token. Evidence: the Qwen posts keep token (GSPO, Qwen3) or Token (Omni-Flash). |
+| dense model | Dense 模型；稠密模型 | Pick one per document. Qwen3 keeps Dense. |
+| importance ratio / group relative advantage | 重要性比率 / 组内相对优势 | Evidence: GSPO Chinese version. |
+| training-inference disaggregation | 训推分离 | Compact practitioner term. Evidence: GSPO. |
+| null hypothesis / standard deviation | 零假设 / 标准差 | Evidence: E-Commerce Bench. |
+| reservation price | 保留价 | Evidence: E-Commerce Bench. |
+| long-horizon (task, operations) | 长程（任务、经营） | Evidence: E-Commerce Bench, Omni-Flash. 长周期 also appears (Qwen3). Pick one per document. |
+| context window | 上下文窗口；长上下文 | Do not alternate with 长序列 for the same feature (Omni-Flash drift). |
+| relative vs. absolute reduction | 从 A 降至 B，相对下降约 C% | State both and label the relative change. Evidence: Omni-Flash. |
+| base / pre-trained model | 基座模型；基础模型 | Pick one per document. Do not confuse with a base task tier. |
+| exploration and exploitation | 探索与利用 | Standard RL pair. Do not paraphrase it (the Qwen3 Chinese has 探索和钻研). |
+| supervised (training) | 监督；监督式 | 监管 means regulation or oversight. |
+| activated parameters | 激活参数 | Keep total and activated counts distinct and exact. |
+| API parameters / config field names | keep English (`reasoning_effort`, `enable_thinking`) | Use Chinese for the concept in prose (推理深度, 思考模式). |
 
 When adding entries, record context, preferred form, alternatives, and approval status. Blog usage is evidence for that context, not automatic global approval.

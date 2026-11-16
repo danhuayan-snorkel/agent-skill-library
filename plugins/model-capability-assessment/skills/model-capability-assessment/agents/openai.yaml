@@ -1,0 +1,3 @@
+interface:
+  display_name: "Model Capability Assessment"
+  short_description: "Agent capability gaps for any model, internal and client-facing"

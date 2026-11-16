@@ -1,0 +1,15 @@
+{
+  "name": "model-capability-assessment",
+  "version": "0.1.0",
+  "description": "Assess a foundation model's agent capabilities from public benchmarks, Snorkel SDS results, and user feedback; produce internal and client-facing reports.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Model Capability Assessment",
+    "shortDescription": "Agent capability gaps for any model, internal and client-facing",
+    "longDescription": "Place a model on a fixed agent-capability taxonomy using public benchmark results, Snorkel SDS frontier results, and English and Chinese user feedback, then write gap recommendations as an internal artifact and a bilingual client-facing report.",
+    "category": "Productivity"
+  },
+  "author": {
+    "name": "danhuayan-snorkel"
+  }
+}
